@@ -12,7 +12,7 @@ Route::post('/captura', [CapturaController::class, 'index'])->name('captura');
 
 Route::get('/lista', [ListaController::class, 'all'])->name('lista');
 
-Route::delete('/captura/{id}', [CapturaController::class, 'delete'])->name('captura');
+Route::delete('/captura/{id}', [CapturaController::class, 'delete'])->name('Fixa');
 
 require __DIR__.'/auth.php';
 
