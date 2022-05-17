@@ -13,6 +13,8 @@ Ferramentas usadas:
     •MySql
     •Editor VScode
 
+Para rodar este projeto após fazer o clone, executar o composer update para criar a pasta "vendor". Criar uma cópia do arquivo ".env.example" e renomear para apenas".env" após renomear, em "DB_DATABASE=" na linha 13, colocar o nome do banco de dados e criar o banco em phpmyadmin com o mesmo nome, pode ser qualquer nome que você queira. Após isso, executar as migrations e pronto, o projeto deve rodar.
+
 Na tela inicial de Login, utilizar o 
 usuario: admin@admin.com
 e senha: adminadmin
