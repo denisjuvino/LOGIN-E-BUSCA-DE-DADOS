@@ -15,7 +15,10 @@ Ferramentas usadas:
 
 Na tela inicial de Login, utilizar o 
 usuario: admin@admin.com
-e senha: admin
+e senha: adminadmin
+
+Para ir á tela de cadastro, adicionar na barra de pesquisa do navegador a palavra cadastro. 
+Exemplo: localhost:8000/cadastro
 
 Ao efetuar a busca no campo de pesquisa, será retornado ao usuario os veiculos, os mesmos serão salvos no Banco de dados.
 O usuario pode deletar algum veiculo no botão Excluir.
